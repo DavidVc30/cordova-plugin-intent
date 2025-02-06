@@ -21,9 +21,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </config-file>
-        <config-file target="AndroidManifest.xml" parent="/manifest">
-            <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
-        </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <provider
                 android:name="com.darryncampbell.cordova.plugin.intent.CordovaPluginIntentFileProvider"
